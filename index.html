@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_AR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +7,17 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Otros CSS -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     
     <!-- JS Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
@@ -23,12 +27,12 @@
     <meta name="description" content="Cursos online de Astrología, tarot y consultas de carta natal, revolución solar y medicina china">
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    
-    <!-- Palabras clave de nuestra página -->
-    <meta name="keywords" content="astrología, tarot, medicina china, cursos online">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
-    <!--Nombre del Autor -->
+    <!-- Keywords -->
+    <meta name="keywords" content="astrología, tarot, medicina china, cursos online, carta natal, revolución solar">
+
+    <!--Author -->
     <meta name="author" content="Nicolás Luna">
     
     <!-- Copyright -->
@@ -40,7 +44,7 @@
     <meta property="og:image" content="images/logo.png">
     <meta property="og:url" content="https//soymanik.com.ar/">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="es_ES">
+    <meta property="og:locale" content="es_AR">
 
     <title>Soy Manik - El universo en vos</title>
 </head>
@@ -53,25 +57,56 @@
       <i class="fa fa-remove"></i>
     </a>
     <div class="w3-bar-block w3-center">
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Sobre Nosotros</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Cursos y Talleres</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Tienda</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Redes Sociales</a>
+      <a href="#nosotros" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Sobre Nosotros</a>
+      <a href="#cursos" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Cursos y Talleres</a>
+      <a href="#consultas" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Consultas</a>
+      <a href="#socialmedia" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Redes Sociales</a>
     </div>
   </nav>
-  
-  
+    
   <!-- Header -->
+  
   <div class="w3-opacity">
   <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
   <div class="w3-clear"></div>
   <header class="w3-center w3-margin-bottom">
-    <img class="logo" src="img/logo.svg" alt="logo" width="200px" height="200px">
+    <img class="logo" src="img/logo.svg" alt="logo">
     <p><b>El universo en vos.</b></p>
-    <p class="w3-padding-16"><a href="http://soymanik.com.ar/"><button class="w3-button w3-black" onclick="myFunction()">Ingresar</button></p></a>
   </header>
   </div>
+  <br>
+
+<!-- Sobre nosotros -->
+<div id="nosotros" class="nosotros">
+<Span class="img-nosotros"><img class="img-fluid" src="img/SobreNosotros.png" alt="SobreNosotros"></Span>
+<h2 class="display-1 text-muted"><b>Sobre Nosotros</b></h2>
+  <div class="clearfix">
+    <img src="img/paula.jpeg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" width="auto" height="200px" alt="Paula Buentes - Directora de Soy Manik" >
   
+    <p class="h5">Siempre nos gustaron las polaridades y su unión, las diversas maneras en las que todo se separa y confluye continuamente.
+    </p>
+  
+    <p class="h5">Creemos que por esto, la Filosofía Taoísta y la Medicina Tradicional China son nuestro gran pilar de vida, así como también la Astrología y el Tarot Evolutivo.
+    </p>
+  
+    <p class="h5">Todas estas herramientas, me acompañan en procesos de autoconocimiento y transformación constante, además son las que utilizamos para acompañar día a día a otros en las consultas y talleres que se brindan.
+    </p>
+    <p class="h5">Nos consideramos en constante expansión, y si hay algo que disfrutamos, es de compartirlo con aquellos que se encuentren en el mismo camino...</p>
+  </div>
+
+
+
+
+
+
+</div>
+
+<!-- Cursos y talleres -->
+
+
+
+
+<!-- Consultas -->
 
 
 
@@ -86,29 +121,31 @@
 
 
 
+<!-- Contacto (Typeform)-->
 
-
-
-
-
-
-
-
-
+<div class="typeform-widget" data-url="https://form.typeform.com/to/RnL9uL0V?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
+<script> (function() 
+{ var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; 
+if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
 
+<footer id="socialmedia" class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <a href="http://facebook.com/soymanik/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="http://instagram.com/soymanik/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=541123922214" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
 
     <p class="w3-medium">Creado por: <a href="https://www.soymanik.com.ar/" target="_blank" class="w3-hover-text-green">Soy Manik</a></p>
   </footer>
 
 
 
-
-
+<!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
 
   <script>
